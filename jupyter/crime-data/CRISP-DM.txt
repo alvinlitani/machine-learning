@@ -1,0 +1,38 @@
+CRISP-DM
+
+Business Understanding
+	-- project plan
+		-- when , who, what purpose, who used it, results from previous usage
+		-- resources, who will do what, number of phases, when will you finish each phase
+
+Data Understanding
+	-- collect initial data (already available for us for lbas, assignments, final project data)
+	-- describe data - find the meaning of all columns, types
+	-- explore data - visualizations, sorting, filtering, summarizations
+	-- verify data quality - missing, outliers, duplicates, errors, inconsistencies etc
+
+Data Preparation
+	-- select data - select relevant non-redundant columns (document why you decide select/ignore columns)
+	-- clean data - fixing data quality issues that we identified during DU phase
+	-- construct data - creating new columns (Ex: Relatives in Titanic, or BMI from height/weight etc)
+	-- integrate data - merging different datasets ex. collision & weather database
+	-- format data - binning ex. AgeGroup in Titanic, data types, scaling (normalization, standardization)
+
+Modeling
+	-- supervised
+		#classification
+			- KNN
+			- DT
+			- Random Forest (collection of random trees, final decision by majority vote)
+		#regression
+			- <<simple, multiple, multivariate, logical>>
+	-- unsupervised
+		#clustering
+		#outlier detection
+			- LOP
+			- ISP
+	-- test plan
+		- cross validation
+		- percentage split
+
+
